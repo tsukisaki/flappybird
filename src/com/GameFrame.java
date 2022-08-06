@@ -1,7 +1,6 @@
 package com;
 
 import utils.Constant;
-
 import javax.swing.*;
 
 public class GameFrame  extends JFrame
@@ -9,7 +8,6 @@ public class GameFrame  extends JFrame
     //初始化窗体
     public void initFrame()
     {
-
         setTitle(Constant.GAME_TITLE);
         setSize(Constant.WINDOW_WIDTH,Constant.WINDOW_HEIGHT);
 
@@ -30,5 +28,4 @@ public class GameFrame  extends JFrame
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         panel.action();
     }
-
 }
