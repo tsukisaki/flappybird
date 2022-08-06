@@ -31,7 +31,6 @@ public class MusicPlayer {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
     /**
      * 关闭音乐
@@ -40,5 +39,4 @@ public class MusicPlayer {
         if (music!=null)    //需要判断music是否为null，避免出现空指针异常
             music.stop();//暂停音乐
     }
-
 }

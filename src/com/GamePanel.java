@@ -1,7 +1,6 @@
 package com;
 
 import utils.Constant;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -10,8 +9,6 @@ import java.util.Date;
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.awt.event.*;
-
-
 
 public class GamePanel extends JPanel
 {
@@ -26,7 +23,6 @@ public class GamePanel extends JPanel
     private BufferedImage imgTutorial = null;
     private BufferedImage imgOver = null;
     private BufferedImage imgScore = null;
-
     private Bird bird = null;
     private Pillar p1 = null;
     private Pillar p2 = null;
@@ -62,7 +58,6 @@ public class GamePanel extends JPanel
      * 重写paint方法，会在初始化以及最大化最小化时调用方法
      * 绘制组件 加载图片等
      */
-
     @Override
     public void paint(Graphics g)
     {

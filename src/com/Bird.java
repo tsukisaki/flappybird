@@ -1,13 +1,10 @@
 package com;
 
 import utils.Constant;
-
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-
 import static com.MusicPlayer.SE;
-
 
 public class Bird {
     public BufferedImage img = null;// 小鸟图片
